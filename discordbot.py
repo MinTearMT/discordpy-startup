@@ -25,7 +25,7 @@ async def あ(ctx):
 
 client.on('ready', message =>
 {
-  client.user.setPresence({ game: { name: 'MinT.exe' } });  
+  client.user.setPresence({ game: { name: 'MT.net' } });  
   console.log('bot is ready!');
 });
 
