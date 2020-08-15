@@ -18,4 +18,9 @@ async def MinT(ctx):
     await ctx.send('ぬん')
 
 
+@bot.command()
+async def あ(ctx):
+    await ctx.send('あ！')
+
+
 bot.run(token)
