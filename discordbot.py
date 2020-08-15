@@ -22,20 +22,5 @@ async def MinT(ctx):
 async def あ(ctx):
     await ctx.send('あ！')
 
-
-@client.event
-async def on_ready():
-    print('We have logged in as {0.user}'.format(client))
-
-@client.event
-async def on_message(message):
-    if message.author == client.user:
-        return
-
-    if message.content.startswith('おはよう'):
-        await message.channel.send('おはよ！　つД｀)')
-
-client.run('your token here')
-
  
 bot.run(token)
