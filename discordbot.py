@@ -23,4 +23,11 @@ async def あ(ctx):
     await ctx.send('あ！')
 
 
+client.on('ready', message =>
+{
+  client.user.setPresence({ game: { name: 'MinT.exe' } });  
+  console.log('bot is ready!');
+});
+
+
 bot.run(token)
