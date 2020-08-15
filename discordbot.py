@@ -32,11 +32,11 @@ http.createServer(function(request, response)
 }).listen(3000);
 client.on('ready', message =>
 {
+
+
   client.user.setPresence({ game: { name: 'MinT.net' } });  
   console.log('bot is ready!');
 });
-
-
 
 
 bot.run(token)
