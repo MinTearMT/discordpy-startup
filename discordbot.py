@@ -19,8 +19,8 @@ async def MinT(ctx):
 
 
 @bot.command()
-async def あ(ctx):
-    await ctx.send('あ！')
+async def ongyaa!(ctx):
+    await ctx.send('https://gyazo.com/d08bdbb5cb576cd46d3e4591c949ca56')
 
  
 bot.run(token)
